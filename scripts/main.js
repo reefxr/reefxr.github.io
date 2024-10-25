@@ -90,7 +90,7 @@ async function getInputValue(){
     trueValue(value);
     createText("<a href='https://github.com/reefxr' target='_blank'><i class='fab fa-github white'></i> github.com/reefxr</a>")
     createText("<a href='https://stackoverflow.com/users/22055273/reefer' target='_blank'><i class='fab fa-stack-overflow white'></i> stackoverflow.com/reefxr</a>")
-    createText("<a href='https://leetcode.com/u/reefxxr/' target='_blank'><i class='fas fa-code white'></i> leetcode.com/reefxr</a>")
+    createText("<a href='https://leetcode.com/u/reefxxr/' target='_blank'><img src='https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png' alt='LeetCode' style='width: 20px;'> leetcode.com/reefxr</a>")
   }
   else if(value === "misc"){
     trueValue(value);
