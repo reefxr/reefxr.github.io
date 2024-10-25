@@ -80,6 +80,7 @@ async function getInputValue(){
   else if(value === "projects"){
     trueValue(value);
     createText("<a href='https://github.com/reefxr' target='_blank'><i class='fab fa-github white'></i> github.com/reefxr</a>")
+    createText("TBA - SOON")
   }
   else if(value === "about me"){
     trueValue(value);
