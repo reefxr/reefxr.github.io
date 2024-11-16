@@ -87,7 +87,7 @@ async function getInputValue(){
     createText("Hi, I'm Kai!")
     createText("I am a 19-year-old Computer Science student with special interests in video games and video game development, robotics, data science, and FPV drones. Nice to meet you!")
     createText("NOTE: I am planning to use a new design for this site")
-    createText("(This site template is originally made by Heber Leonard, you can follow him on <a href='https://github.com/heberleonard2' target='_blank'><i class='fab fa-github white'></i> github.com/heberleonard2</a>")
+    createText("(This site template is originally made by Heber Leonard, you can follow him on <a href='https://github.com/heberleonard2' target='_blank'><i class='fab fa-github white'></i> github.com/heberleonard2</a>)")
   }
   else if(value === "social"){
     trueValue(value);
