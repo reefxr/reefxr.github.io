@@ -70,7 +70,7 @@ async function getInputValue(){
   if(value === "all"){
     trueValue(value);
     
-    createCode("projects", "My GitHub page with my projects. Visit me there :>");
+    createCode("projects", "My GitHub page with my (soon-to-be-real) projects. Visit me there :>");
     createCode("about me", "Brief information about me.");
     createCode("social", "My social networks.");
     createCode("misc", "All things miscellaenous.");
@@ -80,22 +80,24 @@ async function getInputValue(){
   else if(value === "projects"){
     trueValue(value);
     createText("<a href='https://github.com/reefxr' target='_blank'><i class='fab fa-github white'></i> github.com/reefxr</a>")
-    createText("TBA - SOON")
+    createText("I don't have any yet")
   }
   else if(value === "about me"){
     trueValue(value);
     createText("Hi, I'm Kai!")
     createText("I am a 19-year-old Computer Science student with special interests in video games and video game development, robotics, data science, and FPV drones. Nice to meet you!")
+    createText("NOTE: I am planning to use a new design for this site")
+    createText("(This site template is originally made by Heber Leonard, you can follow him on <a href='https://github.com/heberleonard2' target='_blank'><i class='fab fa-github white'></i> github.com/heberleonard2</a>")
   }
   else if(value === "social"){
     trueValue(value);
     createText("<a href='https://github.com/reefxr' target='_blank'><i class='fab fa-github white'></i> github.com/reefxr</a>")
-    createText("<a href='https://stackoverflow.com/users/22055273/reefer' target='_blank'><i class='fab fa-stack-overflow white'></i> stackoverflow.com/reefxr</a>")
-    createText("<a href='https://leetcode.com/u/reefxxr/' target='_blank'><img src='https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png' alt='LeetCode' style='width: 20px;'> leetcode.com/reefxr</a>")
+    createText("<a href='https://stackoverflow.com/users/22055273/reefer' target='_blank'><i class='fab fa-stack-overflow white'></i> stackoverflow.com/reefxr</a> (This is inactive by the way)")
+    createText("<a href='https://leetcode.com/u/reefxxr/' target='_blank'><img src='https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png' alt='LeetCode' style='width: 20px;'> leetcode.com/reefxr</a> (Fresh account)")
   }
   else if(value === "misc"){
     trueValue(value);
-    createText("TBA - UNDER CONSTRUCTION")
+    createText("I don't know what to put here")
   }
   
   else if(value === "clear"){
