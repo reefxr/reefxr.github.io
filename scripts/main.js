@@ -84,16 +84,15 @@ async function getInputValue(){
   }
   else if(value === "about me"){
     trueValue(value);
-    createText("Hi, I'm Kai!")
+    createText("Hi, I'm Reef!")
     createText("I am a 19-year-old Computer Science student with special interests in video games and video game development, robotics, data science, and FPV drones. Nice to meet you!")
-    createText("NOTE: I am planning to use a new design for this site")
     createText("(This site template is originally made by Heber Leonard, you can follow him on <a href='https://github.com/heberleonard2' target='_blank'><i class='fab fa-github white'></i> github.com/heberleonard2</a>)")
   }
   else if(value === "social"){
     trueValue(value);
     createText("<a href='https://github.com/reefxr' target='_blank'><i class='fab fa-github white'></i> github.com/reefxr</a>")
-    createText("<a href='https://stackoverflow.com/users/22055273/reefer' target='_blank'><i class='fab fa-stack-overflow white'></i> stackoverflow.com/reefxr</a> (This is inactive by the way)")
-    createText("<a href='https://leetcode.com/u/reefxxr/' target='_blank'><img src='https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png' alt='LeetCode' style='width: 20px;'> leetcode.com/reefxr</a> (Fresh account)")
+    createText("<a href='https://stackoverflow.com/users/22055273/reefer' target='_blank'><i class='fab fa-stack-overflow white'></i> stackoverflow.com/reefxr</a>")
+    createText("<a href='https://leetcode.com/u/reefxxr/' target='_blank'><img src='https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png' alt='LeetCode' style='width: 20px;'> leetcode.com/reefxr</a>")
   }
   else if(value === "misc"){
     trueValue(value);
